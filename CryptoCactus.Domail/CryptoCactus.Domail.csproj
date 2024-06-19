@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Markets\ConcreteExchanges\" />
+    <PackageReference Include="bybit.net.api" Version="1.1.2" />
   </ItemGroup>
 
 </Project>

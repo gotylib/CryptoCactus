@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gr/zCP7ssJ1bfh4QQVURwwGMlCioTAaNF7mECtmvqCg=",
+  "Source": "CryptoCactus.WebAPI",
+  "BasePath": "_content/CryptoCactus.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

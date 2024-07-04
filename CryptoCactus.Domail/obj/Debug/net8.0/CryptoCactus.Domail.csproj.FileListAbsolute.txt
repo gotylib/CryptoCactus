@@ -1,0 +1,13 @@
+E:\repos\CryptoCactus\CryptoCactus.Domail\bin\Debug\net8.0\CryptoCactus.Domail.deps.json
+E:\repos\CryptoCactus\CryptoCactus.Domail\bin\Debug\net8.0\CryptoCactus.Domail.dll
+E:\repos\CryptoCactus\CryptoCactus.Domail\bin\Debug\net8.0\CryptoCactus.Domail.pdb
+E:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domail.csproj.AssemblyReference.cache
+E:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domail.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domail.AssemblyInfoInputs.cache
+E:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domail.AssemblyInfo.cs
+E:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domail.csproj.CoreCompileInputs.cache
+E:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domail.sourcelink.json
+E:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domail.dll
+E:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\refint\CryptoCactus.Domail.dll
+E:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domail.pdb
+E:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\ref\CryptoCactus.Domail.dll

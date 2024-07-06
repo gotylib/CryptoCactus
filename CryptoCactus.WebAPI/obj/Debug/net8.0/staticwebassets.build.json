@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "gr/zCP7ssJ1bfh4QQVURwwGMlCioTAaNF7mECtmvqCg=",
+  "Hash": "8d7Qe1qt524EX7InVpagk87w6yusNE2NgIY4V+HOVnA=",
   "Source": "CryptoCactus.WebAPI",
   "BasePath": "_content/CryptoCactus.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CryptoCactus.WebAPI\\wwwroot",
+      "Source": "CryptoCactus.WebAPI",
+      "ContentRoot": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
+      "BasePath": "_content/CryptoCactus.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
+      "SourceId": "CryptoCactus.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
+      "BasePath": "_content/CryptoCactus.WebAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
 }

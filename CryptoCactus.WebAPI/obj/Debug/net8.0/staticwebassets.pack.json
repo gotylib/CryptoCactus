@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CryptoCactus.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CryptoCactus.WebAPI.props",
+      "PackagePath": "build\\CryptoCactus.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CryptoCactus.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\CryptoCactus.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CryptoCactus.WebAPI.props",
+      "PackagePath": "buildTransitive\\CryptoCactus.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

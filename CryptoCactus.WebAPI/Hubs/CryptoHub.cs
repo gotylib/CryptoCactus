@@ -1,13 +1,22 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using CryptoCactus.Domail.Markets.ConcreteExchanges;
+using Microsoft.AspNetCore.SignalR;
+using System;
 
 namespace CryptoCactus.WebAPI.Hubs
 {
     public class CryptoHub : Hub
     {
-        public async Task JoinCrypto()
+        public async Task Send(BybitExchange items)
         {
-            string group = "user";
-            await Groups.AddToGroupAsync(Context.ConnectionId, group);
+            await items.GetOnlyOneCurrencByAPI("BTCUSND");
+            var BTC = items.Currencies["BTCUSDT"];
+            await Clients.Caller.SendAsync("Receive", BTC);
         }
+        
     }
+
+
 }
+
+
+

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A49FFE5D-2219-4642-96D9-A0B23CC16E8C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoCactus.Domail", "CryptoCactus.Domail\CryptoCactus.Domail.csproj", "{9798527B-CFD9-4EEA-83DC-1C2684510AA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoCactus.Domain", "CryptoCactus.Domail\CryptoCactus.Domain.csproj", "{9798527B-CFD9-4EEA-83DC-1C2684510AA9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrasructure", "Infrasructure", "{DC33A757-657C-48AC-9ADC-9CAED5866609}"
 EndProject
@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BBBF20CC-D8CE-4A81-AD36-35DE22CD0EA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCactus.WebAPI", "CryptoCactus.WebAPI\CryptoCactus.WebAPI.csproj", "{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoCactus.WebAPI", "CryptoCactus.WebAPI\CryptoCactus.WebAPI.csproj", "{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

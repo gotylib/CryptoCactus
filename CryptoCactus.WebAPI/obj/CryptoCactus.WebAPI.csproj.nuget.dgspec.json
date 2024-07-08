@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj": {}
+    "D:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj": {}
   },
   "projects": {
-    "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domail.csproj": {
+    "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domail.csproj",
-        "projectName": "CryptoCactus.Domail",
-        "projectPath": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domail.csproj",
-        "packagesPath": "C:\\Users\\mixal\\.nuget\\packages\\",
-        "outputPath": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\obj\\",
+        "projectUniqueName": "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj",
+        "projectName": "CryptoCactus.Domain",
+        "projectPath": "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mixal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,25 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj": {
+    "D:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj",
+        "projectUniqueName": "D:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj",
         "projectName": "CryptoCactus.WebAPI",
-        "projectPath": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\mixal\\.nuget\\packages\\",
-        "outputPath": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\obj\\",
+        "projectPath": "D:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mixal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,8 +96,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domail.csproj": {
-                "projectPath": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domail.csproj"
+              "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj": {
+                "projectPath": "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj"
               }
             }
           }
@@ -153,7 +145,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

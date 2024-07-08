@@ -1,7 +1,11 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
       "Id": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
+=======
+      "Id": "D:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
+>>>>>>> db9fca3 (version: 1.7)
       "PackagePath": "staticwebassets\\index.html"
     },
     {

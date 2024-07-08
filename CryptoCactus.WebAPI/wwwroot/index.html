@@ -2,92 +2,51 @@
 <html>
 <head>
     <meta charset="utf-8" />
-<<<<<<< HEAD
-    <title>METANIT.COM</title>
+    <title>Projеct Eva</title>
 </head>
+
 <body>
     <form method="get">
         <p>
             <label for="CryptoCurrencies">Выберите криптовалюту:</label>
             <select id="CryptoCurrencies" name="CryptoCurrencies">
                 <option value="BTC">BTC</option>
-                <option value="ETH">ETN</option>
-                <option value="NOT">NOT</option>
+                <option value="ETH">ETH</option>
             </select>
         </p>
     </form>
-    <title>Progect Eva</title>
-</head>
-<body>
     <div id="inputForm">
         <input type="button" id="sendBtn" value="Отправить" disabled="disabled" />
     </div>
-    <div id="output"></div>
-    <div id="visibl"></div>
-    <div id="chatroom"></div>
+    <div id="Bybit"></div>
+    <div id="OKX"></div>
+    <div id="HTX"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
     <script>
         const hubConnection = new signalR.HubConnectionBuilder()
             .withUrl("/chat")
             .build();
 
+
+        let intervalId;
+
         // отправка сообщения на сервер
         document.getElementById("sendBtn").addEventListener("click", function () {
-
-            const itemElems = document.getElementsByName("items");
-            const items = [];
-            for (let i = 0; i < itemElems.length; i++) {
-                items.push(itemElems[i].value);
-            }
-
-            hubConnection
-                .invoke("Send", items)
-                .catch(function (err) {
-                    return console.error(err.toString());
-                });
-        });
-        // получение сообщения от сервера
-        hubConnection.on("Receive", function (data) {
-
-            document.getElementById("response").textContent = data;
-
-=======
-
-        let intervalId; // Переменная для хранения идентификатора интервала
-
-        document.addEventListener('visibilitychange', () => {
-            if (document.visibilityState === 'visible') {
-                // Страница активна, запускаем отправку сообщений
-                intervalId = setInterval(() => {
-                    hubConnection.invoke("Send") // Используем метод Send
-                        .catch(function (err) {
-                            return console.error(err.toString());
-                        });
-                }, 1000); 
-            } else {
-                // Страница неактивна, останавливаем отправку сообщений
-                clearInterval(intervalId); // Очищаем интервал перед тем, как запускать новый
-                intervalId = null; // Сбрасываем intervalId
-            }
-        });
-
-
-        document.getElementById("sendBtn").addEventListener("click", function () {
             intervalId = setInterval(() => {
-                hubConnection.invoke("Send") // Используем метод Send
+                const selectedItem = document.getElementById("CryptoCurrencies").value;
+                hubConnection
+                    .invoke("Send", selectedItem)
                     .catch(function (err) {
                         return console.error(err.toString());
                     });
-            }, 10);
+            }, 1000);
         });
 
-        hubConnection.on("Receive", function (message) {
-            const outputElement = document.getElementById('output');
-            outputElement.innerText = message;
-            /*let messageElement = document.createElement("p");
-            messageElement.textContent = message;
-            document.getElementById("chatroom").appendChild(messageElement);*/
->>>>>>> db9fca3 (version: 1.7)
+        // получение сообщения от сервера
+        hubConnection.on("Receive", function (data) {
+            document.getElementById('Bybit').innerText = "Bybit:" + data[0];
+            document.getElementById('OKX').innerText = "OKX:" + data[1];
+            document.getElementById('HTX').innerText = "HTX:" + data[2];
         });
 
         hubConnection.start()

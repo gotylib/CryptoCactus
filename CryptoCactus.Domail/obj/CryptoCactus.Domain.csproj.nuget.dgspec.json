@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj": {}
+    "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj": {}
   },
   "projects": {
-    "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj": {
+    "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj",
+        "projectUniqueName": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj",
         "projectName": "CryptoCactus.Domain",
-        "projectPath": "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\CryptoCactus\\CryptoCactus.Domail\\obj\\",
+        "projectPath": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj",
+        "packagesPath": "C:\\Users\\mixal\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mixal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

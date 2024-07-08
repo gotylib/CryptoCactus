@@ -11,12 +11,12 @@ namespace CryptoCactus.Domain.Markets.HtxExchanges
 {
     public class HtxExchanges : CryptoExchange
     {
-        public override async Task GetCurrenciesByAPI(string? apiKey = null, string? apiSecret = null)
+        public override async Task GetCurrenciesByAPIAsync(string? apiKey = null, string? apiSecret = null)
         {
             throw new NotImplementedException();
         }
 
-        public override async Task GetOnlyOneCurrencByAPI(string nameOfCurrenc, string? apiKey = null, string? apiSecret = null)
+        public override async Task GetOnlyOneCurrencByAPIAsync(string nameOfCurrenc, string? apiKey = null, string? apiSecret = null)
         {
             string url =  string.Concat("https://api.huobi.pro/market/history/kline?period=1min&size=1&symbol=",string.Concat( nameOfCurrenc.ToLower(),"usdt"));
             var kLineInfo = await httpConnector.HttpConnect(url);

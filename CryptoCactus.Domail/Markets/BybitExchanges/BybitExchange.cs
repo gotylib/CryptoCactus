@@ -13,12 +13,12 @@ namespace CryptoCactus.Domail.Markets.ConcreteExchanges
     {
  
 
-        public override async Task GetCurrenciesByAPI(string? apiKey = null, string? apiSecret = null)
+        public override async Task GetCurrenciesByAPIAsync(string? apiKey = null, string? apiSecret = null)
         {
             
         }
 
-        public override async Task GetOnlyOneCurrencByAPI(string nameOfCurrenc, string? apiKey = null, string? apiSecret = null)
+        public override async Task GetOnlyOneCurrencByAPIAsync(string nameOfCurrenc, string? apiKey = null, string? apiSecret = null)
         {
             BybitMarketDataService market = new(url: BybitConstants.HTTP_MAINNET_URL, debugMode: true);
             var klineInfo = await market.GetMarketKline(Category.SPOT, string.Concat(nameOfCurrenc, "USDT"), MarketInterval.OneMinute, limit: 1);

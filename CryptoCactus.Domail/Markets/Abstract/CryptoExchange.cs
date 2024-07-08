@@ -22,8 +22,8 @@ namespace CryptoCactus.Domain.Markets.Abstract
                 Currencies.Add(key, value);
             }
         }
-        abstract public Task GetCurrenciesByAPI(string? apiKey = null, string? apiSecret = null);
-        abstract public Task GetOnlyOneCurrencByAPI(string nameOfCurrenc , string? apiKey = null, string? apiSecret = null);
+        abstract public Task GetCurrenciesByAPIAsync(string? apiKey = null, string? apiSecret = null); 
+        abstract public Task GetOnlyOneCurrencByAPIAsync(string nameOfCurrenc , string? apiKey = null, string? apiSecret = null);
 
     }
 }

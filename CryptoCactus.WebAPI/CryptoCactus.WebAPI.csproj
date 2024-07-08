@@ -7,19 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="jQuery" Version="1.6.4" />
-    <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\index.html" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\index.html" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CryptoCactus.Domail\CryptoCactus.Domain.csproj" />
   </ItemGroup>
 

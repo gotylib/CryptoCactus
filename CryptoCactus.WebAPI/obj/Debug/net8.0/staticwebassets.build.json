@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "8d7Qe1qt524EX7InVpagk87w6yusNE2NgIY4V+HOVnA=",
-=======
-  "Hash": "3VdDyO6Q4LVjQ84p+K4kD4nVQpgCBHdjzBmhL23LXVM=",
->>>>>>> db9fca3 (version: 1.7)
   "Source": "CryptoCactus.WebAPI",
   "BasePath": "_content/CryptoCactus.WebAPI",
   "Mode": "Default",
@@ -14,28 +10,17 @@
     {
       "Name": "CryptoCactus.WebAPI\\wwwroot",
       "Source": "CryptoCactus.WebAPI",
-<<<<<<< HEAD
       "ContentRoot": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
-=======
-      "ContentRoot": "D:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
->>>>>>> db9fca3 (version: 1.7)
       "BasePath": "_content/CryptoCactus.WebAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
       "SourceId": "CryptoCactus.WebAPI",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
-=======
-      "Identity": "D:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
-      "SourceId": "CryptoCactus.WebAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
->>>>>>> db9fca3 (version: 1.7)
       "BasePath": "_content/CryptoCactus.WebAPI",
       "RelativePath": "index.html",
       "AssetKind": "All",

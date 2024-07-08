@@ -12,32 +12,32 @@ namespace CryptoCactus.Domain.CryptoAbstractFactory
 {
     public class CryptoAbstractFactory
     {
-        List<CryptoExchange> cryptoExchanges = new List<CryptoExchange>();
-        CryptoExchange[] cryptExchanges = new CryptoExchange[3];
-        dynamic cExchange;
+        public List<CryptoExchange> cryptoExchanges = new List<CryptoExchange>();
         public CryptoAbstractFactory()
         {
             cryptoExchanges.Add(new BybitExchange());
             cryptoExchanges.Add(new OkxExchange());
             cryptoExchanges.Add(new HtxExchanges());
-            cryptExchanges[0] = new BybitExchange();
-            cryptExchanges[1] = new OkxExchange();
-            cryptExchanges[2] = new HtxExchanges();
-        }
-        public async void FabricMethod(dynamic CryptoExchange, string update)
-        {
 
         }
-        public async Task UpdateOnlyOneCurrencInAllCryptoExchanges(string nameOfCurrenc)
+
+        public async Task<List<string>> OnlyOneCurrencForAllCryptoExchangesToListAsync(string nameOfCurrenc)
         {
-            foreach (var ce in cryptExchanges)
+            await UpdateOnlyOneCurrencForAllCryptoExchangesAsync(nameOfCurrenc);
+            List<string> result = new List<string>();
+            foreach(var elem in cryptoExchanges)
             {
-                await ce.GetOnlyOneCurrencByAPI(nameOfCurrenc);
+                result.Add(elem.Currencies[nameOfCurrenc].ToString());
             }
-            foreach (var cE in cryptoExchanges)
+            return result;
+
+        }
+        public async Task UpdateOnlyOneCurrencForAllCryptoExchangesAsync(string nameOfCurrenc)
+        {
+            foreach (var elem in cryptoExchanges)
             {
-                cExchange = cE;
-                await cExchange.GetOnlyOneCurrencByAPI(nameOfCurrenc);
+                await elem.GetOnlyOneCurrencByAPIAsync(nameOfCurrenc);
             }
         }
+    }
 }

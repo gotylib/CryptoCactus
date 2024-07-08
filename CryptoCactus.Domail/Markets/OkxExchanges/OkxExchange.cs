@@ -12,12 +12,12 @@ namespace CryptoCactus.Domail.Markets.OkxExchange
 {
     public class OkxExchange : CryptoExchange
     {
-        public override async Task GetCurrenciesByAPI(string? apiKey = null, string? apiSecret = null)
+        public override async Task GetCurrenciesByAPIAsync(string? apiKey = null, string? apiSecret = null)
         {
             throw new NotImplementedException();
         }
 
-        public override async Task GetOnlyOneCurrencByAPI(string nameOfCurrenc, string? apiKey = null, string? apiSecret = null)
+        public override async Task GetOnlyOneCurrencByAPIAsync(string nameOfCurrenc, string? apiKey = null, string? apiSecret = null)
         {
             string url = string.Concat("https://www.okx.com/api/v5/market/mark-price-candles?instId=", string.Concat(nameOfCurrenc, "-USD-SWAP&limit=1"));
             var klineinfo =  await httpConnector.HttpConnect(url);

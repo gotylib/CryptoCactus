@@ -1,8 +1,11 @@
 ﻿using CryptoCactus.Domain.Markets.Abstract;
+using CryptoCactus.Domain.Markets.OkxExchanges;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace CryptoCactus.Domail.Markets.OkxExchange
@@ -17,7 +20,9 @@ namespace CryptoCactus.Domail.Markets.OkxExchange
         public override async Task GetOnlyOneCurrencByAPI(string nameOfCurrenc, string? apiKey = null, string? apiSecret = null)
         {
             string url = string.Concat("https://www.okx.com/api/v5/market/mark-price-candles?instId=", string.Concat(nameOfCurrenc, "-USD-SWAP&limit=1"));
-            string result =  await httpConnector.HttpConnect(url);
+            var klineinfo =  await httpConnector.HttpConnect(url);
+            var result = JsonSerializer.Deserialize<OkxResponseSerialaze>(klineinfo);
+            CurrenciesAppender(nameOfCurrenc, double.Parse(result.Data[0][4], CultureInfo.InvariantCulture));
         }
     }
 }

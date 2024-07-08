@@ -6,15 +6,17 @@
     <title>METANIT.COM</title>
 </head>
 <body>
-    <div>
-        <input type="text" name="items" /><br /><br />
-        <input type="text" name="items" /><br /><br />
-        <input type="text" name="items" /><br /><br />
-        <input type="button" id="sendBtn" value="Отправить" disabled="disabled" />
-    </div>
-    <div><p id="response"></p></div>
-=======
-    <title>Metanit.com</title>
+    <form method="get">
+        <p>
+            <label for="CryptoCurrencies">Выберите криптовалюту:</label>
+            <select id="CryptoCurrencies" name="CryptoCurrencies">
+                <option value="BTC">BTC</option>
+                <option value="ETH">ETN</option>
+                <option value="NOT">NOT</option>
+            </select>
+        </p>
+    </form>
+    <title>Progect Eva</title>
 </head>
 <body>
     <div id="inputForm">
@@ -23,14 +25,12 @@
     <div id="output"></div>
     <div id="visibl"></div>
     <div id="chatroom"></div>
->>>>>>> db9fca3 (version: 1.7)
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
     <script>
         const hubConnection = new signalR.HubConnectionBuilder()
             .withUrl("/chat")
             .build();
 
-<<<<<<< HEAD
         // отправка сообщения на сервер
         document.getElementById("sendBtn").addEventListener("click", function () {
 

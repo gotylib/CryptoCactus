@@ -1,28 +1,44 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
-namespace CryptoCactus.Domain.Markets.HtxExchanges
+public class KlineData
 {
-    public class HtxResponseSerialaze
-    {
-        public string Ch { get; set; }
-        public string Status { get; set; }
-        public long Ts { get; set; }
-        public KlineData[] Data { get; set; }
-    }
+    [JsonPropertyName("id")]
+    public long Id { get; set; }
 
-    public class KlineData
-    {
-        public long Id { get; set; }
-        public double Open { get; set; }
-        public double Close { get; set; }
-        public double Low { get; set; }
-        public double High { get; set; }
-        public double Amount { get; set; }
-        public double Vol { get; set; }
-        public long Count { get; set; }
-    }
+    [JsonPropertyName("open")]
+    public double Open { get; set; }
+
+    [JsonPropertyName("close")]
+    public double Close { get; set; }
+
+    [JsonPropertyName("low")]
+    public double Low { get; set; }
+
+    [JsonPropertyName("high")]
+    public double High { get; set; }
+
+    [JsonPropertyName("amount")]
+    public double Amount { get; set; }
+
+    [JsonPropertyName("vol")]
+    public double Vol { get; set; }
+
+    [JsonPropertyName("count")]
+    public long Count { get; set; }
+}
+
+// Класс для представления всего ответа
+public class HtxResponseSerialaze
+{
+    [JsonPropertyName("ch")]
+    public string Ch { get; set; }
+
+    [JsonPropertyName("status")]
+    public string Status { get; set; }
+
+    [JsonPropertyName("ts")]
+    public long Ts { get; set; }
+
+    [JsonPropertyName("data")]
+    public KlineData[] Data { get; set; }
 }

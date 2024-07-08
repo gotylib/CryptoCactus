@@ -11,3 +11,15 @@ D:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domain.d
 D:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\refint\CryptoCactus.Domain.dll
 D:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domain.pdb
 D:\repos\CryptoCactus\CryptoCactus.Domail\obj\Debug\net8.0\ref\CryptoCactus.Domain.dll
+D:\repos\Develope\CryptoCactus.Domail\bin\Debug\net8.0\CryptoCactus.Domain.deps.json
+D:\repos\Develope\CryptoCactus.Domail\bin\Debug\net8.0\CryptoCactus.Domain.dll
+D:\repos\Develope\CryptoCactus.Domail\bin\Debug\net8.0\CryptoCactus.Domain.pdb
+D:\repos\Develope\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domain.csproj.AssemblyReference.cache
+D:\repos\Develope\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\Develope\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domain.AssemblyInfoInputs.cache
+D:\repos\Develope\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domain.AssemblyInfo.cs
+D:\repos\Develope\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domain.csproj.CoreCompileInputs.cache
+D:\repos\Develope\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domain.dll
+D:\repos\Develope\CryptoCactus.Domail\obj\Debug\net8.0\refint\CryptoCactus.Domain.dll
+D:\repos\Develope\CryptoCactus.Domail\obj\Debug\net8.0\CryptoCactus.Domain.pdb
+D:\repos\Develope\CryptoCactus.Domail\obj\Debug\net8.0\ref\CryptoCactus.Domain.dll

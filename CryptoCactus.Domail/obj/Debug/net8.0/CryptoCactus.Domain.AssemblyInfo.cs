@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoCactus.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+136548f3ccc008743f6f160e30c63c1c9bcb344c")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db9fca380d92eb7b8a79b19cd85bfb4f086f1687")]
->>>>>>> 289ce50 (version:1.62)
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33af83649ef0f624a810182e5750bcdf704ee5fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoCactus.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoCactus.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

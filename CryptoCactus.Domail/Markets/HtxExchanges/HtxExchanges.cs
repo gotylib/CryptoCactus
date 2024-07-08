@@ -18,10 +18,10 @@ namespace CryptoCactus.Domain.Markets.HtxExchanges
 
         public override async Task GetOnlyOneCurrencByAPI(string nameOfCurrenc, string? apiKey = null, string? apiSecret = null)
         {
-            string url =  string.Concat("https://api.huobi.pro/market/history/kline?period=1min&size=1&symbol=",string.Concat( nameOfCurrenc,"usdt"));
+            string url =  string.Concat("https://api.huobi.pro/market/history/kline?period=1min&size=1&symbol=",string.Concat( nameOfCurrenc.ToLower(),"usdt"));
             var kLineInfo = await httpConnector.HttpConnect(url);
             var result = JsonSerializer.Deserialize<HtxResponseSerialaze>(kLineInfo);
-            CurrenciesAppender(nameOfCurrenc, result.Data[0].Amount);
+            CurrenciesAppender(nameOfCurrenc, result.Data[0].Close);
         }
     }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using CryptoCactus.Domail.Markets.ConcreteExchanges;
 using CryptoCactus.Domail.Markets.OkxExchange;
 using CryptoCactus.Domain.Markets.Abstract;
@@ -26,5 +27,17 @@ namespace CryptoCactus.Domail.CryptoAbstractFactory
                 double a = cE.Currencies["BTCUSDT"];
             }
         }
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CryptoCactus.Domain.CryptoAbstractFactory
+{
+    public class CryptoAbstractFactory
+    {
+>>>>>>> 289ce50 (version:1.62)
     }
 }

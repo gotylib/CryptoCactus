@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CryptoCactus.Domail.Markets.BybitExchanges
 {
-    public class ResponseSerialaze
+    public class BybitResponseSerialaze
     {
         public int retCode { get; set; }
         public string retMsg { get; set; }

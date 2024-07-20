@@ -1,61 +1,56 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <meta charset="utf-8" />
-    <title>Projеct Eva</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        a {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+
+            a:hover {
+                background-color: #0056b3;
+            }
+    </style>
 </head>
-
 <body>
-    <form method="get">
-        <p>
-            <label for="CryptoCurrencies">Выберите криптовалюту:</label>
-            <select id="CryptoCurrencies" name="CryptoCurrencies">
-                <option value="BTC">BTC</option>
-                <option value="ETH">ETH</option>
-            </select>
-        </p>
-    </form>
-    <div id="inputForm">
-        <input type="button" id="sendBtn" value="Отправить" disabled="disabled" />
+    <div class="container">
+        <h1>Crypto Tracker</h1>
+        <a href="btc.html">BTC</a>
+        <a href="eth.html">ETH</a>
     </div>
-    <div id="Bybit"></div>
-    <div id="OKX"></div>
-    <div id="HTX"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
-    <script>
-        const hubConnection = new signalR.HubConnectionBuilder()
-            .withUrl("/chat")
-            .build();
-
-
-        let intervalId;
-
-        // отправка сообщения на сервер
-        document.getElementById("sendBtn").addEventListener("click", function () {
-            intervalId = setInterval(() => {
-                const selectedItem = document.getElementById("CryptoCurrencies").value;
-                hubConnection
-                    .invoke("Send", selectedItem)
-                    .catch(function (err) {
-                        return console.error(err.toString());
-                    });
-            }, 1000);
-        });
-
-        // получение сообщения от сервера
-        hubConnection.on("Receive", function (data) {
-            document.getElementById('Bybit').innerText = "Bybit:" + data[0];
-            document.getElementById('OKX').innerText = "OKX:" + data[1];
-            document.getElementById('HTX').innerText = "HTX:" + data[2];
-        });
-
-        hubConnection.start()
-            .then(function () {
-                document.getElementById("sendBtn").disabled = false;
-            })
-            .catch(function (err) {
-                return console.error(err.toString());
-            });
-    </script>
 </body>
 </html>

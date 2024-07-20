@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8d7Qe1qt524EX7InVpagk87w6yusNE2NgIY4V+HOVnA=",
+  "Hash": "9ebOZ3lLQW/bqrAFh9lBt2DwwKotV8uIYYM57mi3rRA=",
   "Source": "CryptoCactus.WebAPI",
   "BasePath": "_content/CryptoCactus.WebAPI",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\btc.html",
+      "SourceId": "CryptoCactus.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
+      "BasePath": "_content/CryptoCactus.WebAPI",
+      "RelativePath": "btc.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\btc.html"
+    },
+    {
+      "Identity": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\eth.html",
+      "SourceId": "CryptoCactus.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
+      "BasePath": "_content/CryptoCactus.WebAPI",
+      "RelativePath": "eth.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\eth.html"
+    },
     {
       "Identity": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
       "SourceId": "CryptoCactus.WebAPI",

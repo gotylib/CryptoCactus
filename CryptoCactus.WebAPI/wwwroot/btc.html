@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>График цены криптовалюты</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>График цены Bitcoin</h1>
+
+    <canvas id="myChart"></canvas>
+
+    <script>
+        // Настройка параметров API и криптовалюты
+        const apiUrl = 'https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1640995200&to=1672531200';
+        const currency = 'BTC';
+
+        // Получение данных с API
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                // Извлечение данных цены и даты
+                const prices = data.prices.map(item => ({
+                    date: new Date(item[0]).toLocaleDateString(), // Форматирование даты
+                    price: item[1]
+                }));
+
+                // Создание графика с Chart.js
+                const chartCanvas = document.getElementById('myChart');
+                const chart = new Chart(chartCanvas, {
+                    type: 'line',
+                    data: {
+                        labels: prices.map(item => item.date),
+                        datasets: [{
+                            label: Цена ${ currency }(USD),
+                            data: prices.map(item => item.price),
+                            borderColor: 'blue',
+                            borderWidth: 1
+                            }]
+                },
+                    options: {
+                    scales: {
+                        x: {
+                            type: 'time'
+                        },
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+                    });
+                })
+                .catch (error => {
+            console.error('Ошибка при получении данных:', error);
+        });
+    </script>
+</body>
+</html>

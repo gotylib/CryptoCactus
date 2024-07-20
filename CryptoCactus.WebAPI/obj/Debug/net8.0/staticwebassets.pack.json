@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\btc.html",
+      "PackagePath": "staticwebassets\\btc.html"
+    },
+    {
+      "Id": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\eth.html",
+      "PackagePath": "staticwebassets\\eth.html"
+    },
+    {
       "Id": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

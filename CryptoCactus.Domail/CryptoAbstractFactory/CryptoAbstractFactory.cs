@@ -34,6 +34,10 @@ namespace CryptoCactus.Domain.CryptoAbstractFactory
         }
         public async Task UpdateOnlyOneCurrencForAllCryptoExchangesAsync(string nameOfCurrenc)
         {
+            /*Parallel.ForEach(cryptoExchanges, async elem =>
+            {
+                await elem.GetOnlyOneCurrencByAPIAsync(nameOfCurrenc);
+            });*/
             foreach (var elem in cryptoExchanges)
             {
                 await elem.GetOnlyOneCurrencByAPIAsync(nameOfCurrenc);

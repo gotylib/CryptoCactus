@@ -3,78 +3,46 @@
   "WorkspaceRootPath": "E:\\repos\\CryptoCactus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\wwwroot\\btc.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\wwwroot\\btc.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\wwwroot\\eth.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\wwwroot\\eth.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\wwwroot\\btc.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\wwwroot\\btc.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\wwwroot\\tablestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\wwwroot\\tablestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E67B37F-9A4E-4C44-9423-685FBF94619E}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\cryptoabstractfactory\\cryptoabstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E67B37F-9A4E-4C44-9423-685FBF94619E}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\cryptoabstractfactory\\cryptoabstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\cryptocactus.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\cryptocactus.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\markets\\okxexchanges\\okxexchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\markets\\okxexchanges\\okxexchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\cryptoabstractfactory\\cryptoabstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\cryptoabstractfactory\\cryptoabstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mixal\\AppData\\Local\\Temp\\.vsdbgsrc\\90793c3eb31d7122de8c9fc198b40ef620e753d16ec471ad4ebd91d387ca3092\\ThrowHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\markets\\abstract\\httpconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\markets\\abstract\\httpconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\markets\\abstract\\cryptoexchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\markets\\abstract\\cryptoexchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\markets\\htxexchanges\\htxexchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\markets\\htxexchanges\\htxexchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\markets\\bybitexchanges\\bybitexchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\markets\\bybitexchanges\\bybitexchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\cryptocactus.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\cryptocactus.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\markets\\bybitexchanges\\bybitresponseserialaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\markets\\bybitexchanges\\bybitresponseserialaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\markets\\htxexchanges\\htxresponseserialaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\markets\\htxexchanges\\htxresponseserialaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|e:\\repos\\cryptocactus\\cryptocactus.domail\\markets\\okxexchanges\\okxresponseserialaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CE8ABA4-DF7F-4EC0-8DBF-E739B893EEFF}|CryptoCactus.Domail\\CryptoCactus.Domain.csproj|solutionrelative:cryptocactus.domail\\markets\\okxexchanges\\okxresponseserialaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|e:\\repos\\cryptocactus\\cryptocactus.webapi\\cryptocactus.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9DEB3CC1-41D7-4E90-A37D-BDD46D5389A8}|CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj|solutionrelative:cryptocactus.webapi\\cryptocactus.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mixal\\AppData\\Local\\Temp\\.vsdbgsrc\\72905e1dbdcf49c87ed4241fa7f49cf917df9ea2dd2776340af6b7cfb0fae700\\Dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -95,46 +63,72 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "tableStyle.css",
+              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\tableStyle.css",
+              "RelativeDocumentMoniker": "CryptoCactus.WebAPI\\wwwroot\\tableStyle.css",
+              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\tableStyle.css",
+              "RelativeToolTip": "CryptoCactus.WebAPI\\wwwroot\\tableStyle.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-22T17:59:04.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "eth.html",
               "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\eth.html",
               "RelativeDocumentMoniker": "CryptoCactus.WebAPI\\wwwroot\\eth.html",
               "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\eth.html",
               "RelativeToolTip": "CryptoCactus.WebAPI\\wwwroot\\eth.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAjAAAA",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAowHcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-07-18T13:52:02.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "CryptoAbstractFactory.cs",
+              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoAbstractFactory\\CryptoAbstractFactory.cs",
+              "RelativeDocumentMoniker": "CryptoCactus.Domail\\CryptoAbstractFactory\\CryptoAbstractFactory.cs",
+              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoAbstractFactory\\CryptoAbstractFactory.cs",
+              "RelativeToolTip": "CryptoCactus.Domail\\CryptoAbstractFactory\\CryptoAbstractFactory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:48:44.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "btc.html",
               "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\btc.html",
               "RelativeDocumentMoniker": "CryptoCactus.WebAPI\\wwwroot\\btc.html",
               "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\btc.html",
               "RelativeToolTip": "CryptoCactus.WebAPI\\wwwroot\\btc.html",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAACHAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-07-18T13:51:45.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "index.html",
               "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "CryptoCactus.WebAPI\\wwwroot\\index.html",
               "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
               "RelativeToolTip": "CryptoCactus.WebAPI\\wwwroot\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAABQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-07-18T13:51:25.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ThrowHelper.cs",
               "DocumentMoniker": "C:\\Users\\mixal\\AppData\\Local\\Temp\\.vsdbgsrc\\90793c3eb31d7122de8c9fc198b40ef620e753d16ec471ad4ebd91d387ca3092\\ThrowHelper.cs",
               "ToolTip": "C:\\Users\\mixal\\AppData\\Local\\Temp\\.vsdbgsrc\\90793c3eb31d7122de8c9fc198b40ef620e753d16ec471ad4ebd91d387ca3092\\ThrowHelper.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
@@ -145,43 +139,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HttpConnector.cs",
-              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\Abstract\\HttpConnector.cs",
-              "RelativeDocumentMoniker": "CryptoCactus.Domail\\Markets\\Abstract\\HttpConnector.cs",
-              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\Abstract\\HttpConnector.cs",
-              "RelativeToolTip": "CryptoCactus.Domail\\Markets\\Abstract\\HttpConnector.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T22:28:20.796Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "CryptoCactus.WebAPI\\Hubs\\ChatHub.cs",
               "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "CryptoCactus.WebAPI\\Hubs\\ChatHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T19:04:48.456Z"
+              "WhenOpened": "2024-07-08T19:04:48.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CryptoCactus.Domain.csproj",
-              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj",
-              "RelativeDocumentMoniker": "CryptoCactus.Domail\\CryptoCactus.Domain.csproj",
-              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoCactus.Domain.csproj",
-              "RelativeToolTip": "CryptoCactus.Domail\\CryptoCactus.Domain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-08T19:03:26.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
@@ -191,103 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BybitResponseSerialaze.cs",
-              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\BybitExchanges\\BybitResponseSerialaze.cs",
-              "RelativeDocumentMoniker": "CryptoCactus.Domail\\Markets\\BybitExchanges\\BybitResponseSerialaze.cs",
-              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\BybitExchanges\\BybitResponseSerialaze.cs",
-              "RelativeToolTip": "CryptoCactus.Domail\\Markets\\BybitExchanges\\BybitResponseSerialaze.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T18:38:32.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CryptoAbstractFactory.cs",
-              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoAbstractFactory\\CryptoAbstractFactory.cs",
-              "RelativeDocumentMoniker": "CryptoCactus.Domail\\CryptoAbstractFactory\\CryptoAbstractFactory.cs",
-              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\CryptoAbstractFactory\\CryptoAbstractFactory.cs",
-              "RelativeToolTip": "CryptoCactus.Domail\\CryptoAbstractFactory\\CryptoAbstractFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:10:10.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CryptoExchange.cs",
-              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\Abstract\\CryptoExchange.cs",
-              "RelativeDocumentMoniker": "CryptoCactus.Domail\\Markets\\Abstract\\CryptoExchange.cs",
-              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\Abstract\\CryptoExchange.cs",
-              "RelativeToolTip": "CryptoCactus.Domail\\Markets\\Abstract\\CryptoExchange.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:50:05.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OkxExchange.cs",
-              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\OkxExchanges\\OkxExchange.cs",
-              "RelativeDocumentMoniker": "CryptoCactus.Domail\\Markets\\OkxExchanges\\OkxExchange.cs",
-              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\OkxExchanges\\OkxExchange.cs",
-              "RelativeToolTip": "CryptoCactus.Domail\\Markets\\OkxExchanges\\OkxExchange.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAADwvxsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:17:26.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HtxExchanges.cs",
-              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\HtxExchanges\\HtxExchanges.cs",
-              "RelativeDocumentMoniker": "CryptoCactus.Domail\\Markets\\HtxExchanges\\HtxExchanges.cs",
-              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\HtxExchanges\\HtxExchanges.cs",
-              "RelativeToolTip": "CryptoCactus.Domail\\Markets\\HtxExchanges\\HtxExchanges.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:04:43.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HtxResponseSerialaze.cs",
-              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\HtxExchanges\\HtxResponseSerialaze.cs",
-              "RelativeDocumentMoniker": "CryptoCactus.Domail\\Markets\\HtxExchanges\\HtxResponseSerialaze.cs",
-              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\HtxExchanges\\HtxResponseSerialaze.cs",
-              "RelativeToolTip": "CryptoCactus.Domail\\Markets\\HtxExchanges\\HtxResponseSerialaze.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAUwA0AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:43:02.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OkxResponseSerialaze.cs",
-              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\OkxExchanges\\OkxResponseSerialaze.cs",
-              "RelativeDocumentMoniker": "CryptoCactus.Domail\\Markets\\OkxExchanges\\OkxResponseSerialaze.cs",
-              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\OkxExchanges\\OkxResponseSerialaze.cs",
-              "RelativeToolTip": "CryptoCactus.Domail\\Markets\\OkxExchanges\\OkxResponseSerialaze.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:42:59.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BybitExchange.cs",
-              "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\BybitExchanges\\BybitExchange.cs",
-              "RelativeDocumentMoniker": "CryptoCactus.Domail\\Markets\\BybitExchanges\\BybitExchange.cs",
-              "ToolTip": "E:\\repos\\CryptoCactus\\CryptoCactus.Domail\\Markets\\BybitExchanges\\BybitExchange.cs",
-              "RelativeToolTip": "CryptoCactus.Domail\\Markets\\BybitExchanges\\BybitExchange.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBcAAACRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:42:56.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 12,
               "Title": "CryptoHub.cs",
               "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\Hubs\\CryptoHub.cs",
               "RelativeDocumentMoniker": "CryptoCactus.WebAPI\\Hubs\\CryptoHub.cs",
@@ -299,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "CryptoCactus.WebAPI\\Program.cs",
@@ -311,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 6,
               "Title": "CryptoCactus.WebAPI.csproj",
               "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj",
               "RelativeDocumentMoniker": "CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj",
@@ -319,11 +194,12 @@
               "RelativeToolTip": "CryptoCactus.WebAPI\\CryptoCactus.WebAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-08T05:18:48.682Z"
+              "WhenOpened": "2024-07-08T05:18:48.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 11,
               "Title": "Dictionary.cs",
               "DocumentMoniker": "C:\\Users\\mixal\\AppData\\Local\\Temp\\.vsdbgsrc\\72905e1dbdcf49c87ed4241fa7f49cf917df9ea2dd2776340af6b7cfb0fae700\\Dictionary.cs",
               "ToolTip": "C:\\Users\\mixal\\AppData\\Local\\Temp\\.vsdbgsrc\\72905e1dbdcf49c87ed4241fa7f49cf917df9ea2dd2776340af6b7cfb0fae700\\Dictionary.cs",
@@ -333,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "CryptoCactus.WebAPI\\appsettings.json",

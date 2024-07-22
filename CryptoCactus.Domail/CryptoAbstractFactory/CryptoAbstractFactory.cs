@@ -1,7 +1,11 @@
 ﻿using CryptoCactus.Domail.Markets.ConcreteExchanges;
 using CryptoCactus.Domail.Markets.OkxExchange;
 using CryptoCactus.Domain.Markets.Abstract;
+using CryptoCactus.Domain.Markets.BingX;
+using CryptoCactus.Domain.Markets.BitGetExchanges;
 using CryptoCactus.Domain.Markets.HtxExchanges;
+using CryptoCactus.Domain.Markets.HuobiExchanges;
+using CryptoCactus.Domain.Markets.KucoinExchanges;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +22,10 @@ namespace CryptoCactus.Domain.CryptoAbstractFactory
             cryptoExchanges.Add(new BybitExchange());
             cryptoExchanges.Add(new OkxExchange());
             cryptoExchanges.Add(new HtxExchanges());
+            cryptoExchanges.Add(new BingXExchange());
+            cryptoExchanges.Add(new BitGetExchange());
+            cryptoExchanges.Add(new KucoinExchange());
+            cryptoExchanges.Add(new HuobiExchange());
 
         }
 
@@ -34,10 +42,6 @@ namespace CryptoCactus.Domain.CryptoAbstractFactory
         }
         public async Task UpdateOnlyOneCurrencForAllCryptoExchangesAsync(string nameOfCurrenc)
         {
-            /*Parallel.ForEach(cryptoExchanges, async elem =>
-            {
-                await elem.GetOnlyOneCurrencByAPIAsync(nameOfCurrenc);
-            });*/
             foreach (var elem in cryptoExchanges)
             {
                 await elem.GetOnlyOneCurrencByAPIAsync(nameOfCurrenc);

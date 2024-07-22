@@ -73,6 +73,22 @@
             <div class="exchange-name">HTX</div>
             <div class="exchange-price" id="HTXETH"></div>
         </div>
+        <div class="exchange-info">
+            <div class="exchange-name">BitGet</div>
+            <div class="exchange-price" id="BitGetETH"></div>
+        </div>
+        <div class="exchange-info">
+            <div class="exchange-name">BingX</div>
+            <div class="exchange-price" id="BingXETH"></div>
+        </div>
+        <div class="exchange-info">
+            <div class="exchange-name">Kucoin</div>
+            <div class="exchange-price" id="KucoinETH"></div>
+        </div>
+        <div class="exchange-info">
+            <div class="exchange-name">Huobi</div>
+            <div class="exchange-price" id="HuobiETH"></div>
+        </div>
         <img class="eth-logo" src="https://cdn.pixabay.com/photo/2023/03/21/20/07/ethereum-7866712_640.png" alt="ETH Logo">
 
         <canvas id="chartContainer"></canvas>
@@ -111,9 +127,13 @@
         };
 
         hubConnectionETH.on("Receive", function (data) {
-            document.getElementById('BybitETH').innerText = "Bybit:" + data[0];
-            document.getElementById('OKXETH').innerText = "OKX:" + data[1];
-            document.getElementById('HTXETH').innerText = "HTX:" + data[2];
+            document.getElementById('BybitETH').innerText = data[0];
+            document.getElementById('OKXETH').innerText =  data[1];
+            document.getElementById('HTXETH').innerText = data[2];
+            document.getElementById('BitGetETH').innerText =  data[3];
+            document.getElementById('BingXETH').innerText = data[4];
+            document.getElementById('KucoinETH').innerText = data[5];
+            document.getElementById('HuobiETH').innerText = data[6];
 
             chartData.labels.push(new Date().toLocaleTimeString()); // Добавляем метку времени
             chartData.datasets[0].data.push(parseFloat(data[0])); // Bybit

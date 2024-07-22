@@ -10,13 +10,13 @@ namespace CryptoCactus.Domain.Markets.OkxExchanges
     public class OkxResponseSerialaze
     {
         [JsonPropertyName("code")]
-        public string Code { get; set; }
+        public string? Code { get; set; }
 
         [JsonPropertyName("msg")]
-        public string Msg { get; set; }
+        public string? Msg { get; set; }
 
         [JsonPropertyName("data")]
-        public List<List<string>> Data { get; set; }
+        public List<List<string>>? Data { get; set; }
     }
 
 

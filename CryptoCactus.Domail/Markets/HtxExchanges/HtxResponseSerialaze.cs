@@ -31,14 +31,14 @@ public class KlineData
 public class HtxResponseSerialaze
 {
     [JsonPropertyName("ch")]
-    public string Ch { get; set; }
+    public string? Ch { get; set; }
 
     [JsonPropertyName("status")]
-    public string Status { get; set; }
+    public string? Status { get; set; }
 
     [JsonPropertyName("ts")]
     public long Ts { get; set; }
 
     [JsonPropertyName("data")]
-    public KlineData[] Data { get; set; }
+    public KlineData[]? Data { get; set; }
 }

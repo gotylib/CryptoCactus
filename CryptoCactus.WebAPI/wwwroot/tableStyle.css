@@ -42,6 +42,12 @@ h2 {
     color: #FFF842;
 }
 
+.row {
+    opacity: 0; /* Скрываем строки по умолчанию */
+    transform: translateY(20px); /* Перемещаем строки вниз на 20 пикселей */
+    transition: all 0.5s ease; /* Анимация плавного перехода */
+}
+
 .container th h1 {
     font-weight: bold;
     font-size: 1em;

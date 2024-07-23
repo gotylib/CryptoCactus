@@ -1,172 +1,97 @@
 ﻿<!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETH Info</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f4;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-
-        .container {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 30px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            width: 80%;
-            max-width: 800px;
-        }
-
-        h2 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        .exchange-info {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 15px;
-        }
-
-        .exchange-name {
-            font-weight: bold;
-        }
-
-        .exchange-price {
-            font-size: 1.2em;
-        }
-
-        .eth-logo {
-            width: 40px;
-            height: 40px;
-            margin-right: 10px;
-        }
-
-        #chartContainer {
-            width: 100%;
-            height: 400px;
-        }
-    </style>
+    <link rel="stylesheet" href="tableStyle.css">
 </head>
 <body>
-    <div class="container">
-        <h2>ETH Price</h2>
-        <div class="exchange-info">
-            <div class="exchange-name">Bybit</div>
-            <div class="exchange-price" id="BybitETH"></div>
-        </div>
-        <div class="exchange-info">
-            <div class="exchange-name">OKX</div>
-            <div class="exchange-price" id="OKXETH"></div>
-        </div>
-        <div class="exchange-info">
-            <div class="exchange-name">HTX</div>
-            <div class="exchange-price" id="HTXETH"></div>
-        </div>
-        <div class="exchange-info">
-            <div class="exchange-name">BitGet</div>
-            <div class="exchange-price" id="BitGetETH"></div>
-        </div>
-        <div class="exchange-info">
-            <div class="exchange-name">BingX</div>
-            <div class="exchange-price" id="BingXETH"></div>
-        </div>
-        <div class="exchange-info">
-            <div class="exchange-name">Kucoin</div>
-            <div class="exchange-price" id="KucoinETH"></div>
-        </div>
-        <div class="exchange-info">
-            <div class="exchange-name">Huobi</div>
-            <div class="exchange-price" id="HuobiETH"></div>
-        </div>
-        <img class="eth-logo" src="https://cdn.pixabay.com/photo/2023/03/21/20/07/ethereum-7866712_640.png" alt="ETH Logo">
+    <h1><span class="blue">&lt;</span>ETH<span class="blue">&gt;</span> <span class="yellow">Price</span></h1>
+    <h2>Progect EVA</h2>
 
-        <canvas id="chartContainer"></canvas>
-    </div>
-
+    <table class="container">
+        <thead>
+            <tr>
+                <th><h1>Exchange</h1></th>
+                <th><h1>Value</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row">
+                <td>Bybit</td>
+                <td id="Bybit"></td>
+            </tr>
+            <tr class="row">
+                <td>Okx</td>
+                <td id="Okx"></td>
+            </tr>
+            <tr class="row">
+                <td>HTX</td>
+                <td id="HTX"></td>
+            </tr>
+            <tr class="row">
+                <td>UnlimBotX</td>
+                <td id="UnlimBotX"></td>
+            </tr>
+            <tr class="row">
+                <td>BitGet</td>
+                <td id="BitGet"></td>
+            </tr>
+            <tr class="row">
+                <td>Kucoin</td>
+                <td id="Kucoin"></td>
+            </tr>
+            <tr class="row">
+                <td>Huobi</td>
+                <td id="Huobi"></td>
+            </tr>
+        </tbody>
+    </table>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
     <script>
-        const hubConnectionETH = new signalR.HubConnectionBuilder()
+        const hubConnection = new signalR.HubConnectionBuilder()
             .withUrl("/chat")
             .build();
 
         let intervalIdETH;
-        let chart;
-        let chartData = {
-            labels: [],
-            datasets: [
-                {
-                    label: 'Bybit',
-                    data: [],
-                    borderColor: 'blue',
-                    borderWidth: 1
-                },
-                {
-                    label: 'OKX',
-                    data: [],
-                    borderColor: 'green',
-                    borderWidth: 1
-                },
-                {
-                    label: 'HTX',
-                    data: [],
-                    borderColor: 'red',
-                    borderWidth: 1
-                }
-            ]
-        };
 
-        hubConnectionETH.on("Receive", function (data) {
-            document.getElementById('BybitETH').innerText = data[0];
-            document.getElementById('OKXETH').innerText =  data[1];
-            document.getElementById('HTXETH').innerText = data[2];
-            document.getElementById('BitGetETH').innerText =  data[3];
-            document.getElementById('BingXETH').innerText = data[4];
-            document.getElementById('KucoinETH').innerText = data[5];
-            document.getElementById('HuobiETH').innerText = data[6];
-
-            chartData.labels.push(new Date().toLocaleTimeString()); // Добавляем метку времени
-            chartData.datasets[0].data.push(parseFloat(data[0])); // Bybit
-            chartData.datasets[1].data.push(parseFloat(data[1])); // OKX
-            chartData.datasets[2].data.push(parseFloat(data[2])); // HTX
-
-            if (chart) {
-                chart.update();
-            } else {
-                const ctx = document.getElementById('chartContainer').getContext('2d');
-                chart = new Chart(ctx, {
-                    type: 'line',
-                    data: chartData,
-                    options: {
-                        scales: {
-                            y: {
-                                beginAtZero: true
-                            }
-                        }
-                    }
-                });
-            }
+        hubConnection.on("Receive", function (data) {
+            document.getElementById('Bybit').innerText = data[0];
+            document.getElementById('Okx').innerText = data[1];
+            document.getElementById('HTX').innerText = data[2];
+            document.getElementById('BitGet').innerText = data[3];
+            document.getElementById('UnlimBotX').innerText = data[4];
+            document.getElementById('Kucoin').innerText = data[5];
+            document.getElementById('Huobi').innerText = data[6];
         });
 
-        hubConnectionETH.start()
+        hubConnection.start()
             .then(function () {
                 intervalIdETH = setInterval(() => {
-                    hubConnectionETH.invoke("Send", "ETH");
+                    hubConnection.invoke("Send", "ETH");
                 }, 1000);
             })
             .catch(function (err) {
                 return console.error(err.toString());
             });
+    </script>
+    <script>
+        // Получаем все строки таблицы
+        const rows = document.querySelectorAll('.row');
+
+        // Скрываем строки по умолчанию
+        rows.forEach(row => {
+            row.style.opacity = 0;
+            row.style.transform = 'translateY(20px)';
+        });
+
+        // Анимация появления строк с задержкой
+        let delay = 0;
+        rows.forEach(row => {
+            setTimeout(() => {
+                row.style.opacity = 1;
+                row.style.transform = 'translateY(0px)';
+            }, delay);
+            delay += 200; // Задержка между строками
+        });
     </script>
 </body>
 </html>

@@ -5,49 +5,82 @@
     </head>
     </head>
     <body>
-        <h1><span class="blue">&lt;</span>Table<span class="blue">&gt;</span> <span class="yellow">Responsive</pan></h1>
-        <h2>Created with love by <a href="https://github.com/pablorgarcia" target="_blank">Pablo García</a></h2>
+        <h1><span class="blue">&lt;</span>BTC<span class="blue">&gt;</span> <span class="yellow">Price</pan></h1>
+        <h2>Progect EVA</h2>
 
         <table class="container">
             <thead>
                 <tr>
-                    <th><h1>Sites</h1></th>
-                    <th><h1>Views</h1></th>
+                    <th><h1>Exchange</h1></th>
+                    <th><h1>Value</h1></th>
 
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Google</td>
-                    <td>9518</td>
+                    <td>Bybit</td>
+                    <td id="Bybit"></td>
 
                 </tr>
                 <tr>
-                    <td>Twitter</td>
-                    <td>7326</td>
+                    <td>Okx</td>
+                    <td id="Okx"></td>
 
                 </tr>
                 <tr>
-                    <td>Amazon</td>
-                    <td>4162</td>
+                    <td>HTX</td>
+                    <td id="HTX"></td>
 
                 </tr>
                 <tr>
-                    <td>LinkedIn</td>
-                    <td>3654</td>
+                    <td>BingX</td>
+                    <td id="BingX"></td>
 
                 </tr>
                 <tr>
-                    <td>CodePen</td>
-                    <td>2002</td>
+                    <td>BitGet</td>
+                    <td id="BitGet"></td>
 
                 </tr>
                 <tr>
-                    <td>GitHub</td>
-                    <td>4623</td>
+                    <td>Kucoin</td>
+                    <td id="Kucoin"></td>
+
+                </tr>
+                <tr>
+                    <td>Huobi</td>
+                    <td id="Huobi"></td>
 
                 </tr>
             </tbody>
         </table>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+        <script>
+            const hubConnection = new signalR.HubConnectionBuilder()
+                .withUrl("/chat")
+                .build();
+
+            let intervalIdETH;
+
+            hubConnection.on("Receive", function (data) {
+                document.getElementById('Bybit').innerText = data[0];
+                document.getElementById('Okx').innerText = data[1];
+                document.getElementById('HTX').innerText = data[2];
+                document.getElementById('BitGet').innerText = data[3];
+                document.getElementById('BingX').innerText = data[4];
+                document.getElementById('Kucoin').innerText = data[5];
+                document.getElementById('Huobi').innerText = data[6];
+            });
+
+            hubConnection.start()
+                .then(function () {
+                    intervalIdETH = setInterval(() => {
+                        hubConnection.invoke("Send", "BTC");
+                    }, 1000);
+                })
+                .catch(function (err) {
+                    return console.error(err.toString());
+                });
+        </script>
     </body>
 </html>

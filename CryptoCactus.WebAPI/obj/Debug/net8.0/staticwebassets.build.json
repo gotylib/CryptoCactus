@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9ebOZ3lLQW/bqrAFh9lBt2DwwKotV8uIYYM57mi3rRA=",
+  "Hash": "KE+vEFAUTy7nkENsky8CQsMj4tlLL3negRUZawfGa/E=",
   "Source": "CryptoCactus.WebAPI",
   "BasePath": "_content/CryptoCactus.WebAPI",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\animation.css",
+      "SourceId": "CryptoCactus.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
+      "BasePath": "_content/CryptoCactus.WebAPI",
+      "RelativePath": "animation.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\animation.css"
+    },
     {
       "Identity": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\btc.html",
       "SourceId": "CryptoCactus.WebAPI",
@@ -72,6 +91,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\signalR.js",
+      "SourceId": "CryptoCactus.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
+      "BasePath": "_content/CryptoCactus.WebAPI",
+      "RelativePath": "signalR.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signalR.js"
+    },
+    {
+      "Identity": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\tableStyle.css",
+      "SourceId": "CryptoCactus.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\",
+      "BasePath": "_content/CryptoCactus.WebAPI",
+      "RelativePath": "tableStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\tableStyle.css"
     }
   ]
 }

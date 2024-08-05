@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\animation.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CryptoCactus.Domail\CryptoCactus.Domain.csproj" />
   </ItemGroup>
 

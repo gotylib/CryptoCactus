@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\animation.css",
+      "PackagePath": "staticwebassets\\animation.css"
+    },
+    {
       "Id": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\btc.html",
       "PackagePath": "staticwebassets\\btc.html"
     },
@@ -11,6 +15,14 @@
     {
       "Id": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\signalR.js",
+      "PackagePath": "staticwebassets\\signalR.js"
+    },
+    {
+      "Id": "E:\\repos\\CryptoCactus\\CryptoCactus.WebAPI\\wwwroot\\tableStyle.css",
+      "PackagePath": "staticwebassets\\tableStyle.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CryptoCactus.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",

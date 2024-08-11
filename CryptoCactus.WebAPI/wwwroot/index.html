@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +12,11 @@
         <h1>Crypto Tracker</h1>
         <select id="crypto-selector">
             <option value="#">Выберите криптовалюту</option>
-            <option value="/crypto?currency=BTC">BTC</option>
-            <option value="/crypto?currency=ETH">ETH</option>
+            <option value="BTC">BTC</option>
+            <option value="ETH">ETH</option>
+            <option value="SOL">SOL</option>
         </select>
+        <button id="select-button">Выбрать</button>
     </div>
     <ul class="circles">
         <li></li>
@@ -28,5 +30,30 @@
         <li></li>
         <li></li>
     </ul>
+
+    <script>
+        document.getElementById('select-button').addEventListener('click', function () {
+            const selectedCrypto = document.getElementById('crypto-selector').value;
+            if (selectedCrypto !== '#') {
+                fetch('/api/crypto', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ crypto: selectedCrypto })
+                })
+                    .then(response => response.text())
+                    .then(data => {
+                        // Перенаправляем на новую страницу
+                        window.location.href = `/${selectedCrypto}.html`;
+                    })
+                    .catch(error => console.error('Ошибка:', error));
+            } else {
+                alert('Пожалуйста, выберите криптовалюту.');
+            }
+        });
+
+    </script>
+
 </body>
 </html>

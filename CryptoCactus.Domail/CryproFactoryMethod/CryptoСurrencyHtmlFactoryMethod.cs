@@ -8,7 +8,7 @@ namespace CryptoCactus.Domain.CryproFactoryMethod
 {
     public class CryptoСurrencyHtmlFactoryMethod
     {
-        static string GenerateCryptoСurrencyHtml(string currency)
+        public static string GenerateCryptoСurrencyHtml(string currency)
         {
             var resultHtml = new StringBuilder();
             string[] exchanges = { "Bybit", "Okx", "HTX", "BingX", "BitGet", "Kucoin", "Huobi" };

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoCactus.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4e7825b386951da1dfd4076d4daa884316ef983")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e1ba50a82b9ea79a879b7fca7c5a52f023cb9c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoCactus.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoCactus.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
